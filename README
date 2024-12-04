@@ -1,0 +1,13 @@
+Trabajo Correspondiente al obligatorio de Sistemas Operativos (que es obligatorio, pero no, pero sí? idk.)
+
+Hecho por Ivan Ariel Rodríguez Pointin, IV-an for short.
+
+Primero que nada, hay algunas cosas que no he logrado perfectamente al completo:
+- Saber enumerar inodos y llamadas específicas de memoria
+- Hacer que se pueda alternar de uno en uno con los semáforos, por algún motivo solo me deja alternar de dos en dos, o directamente primero un proceso consumidor y después el otro. I may be stupid, pero no veo el problema
+
+Ahora, al elefante en la habitación:
+
+No pude hacer funcionar execve o execvp, hice gimnasia olímpica de teclado para que calce, y ni así, ya que con problemas de forkeos termino con un ciclo infinito, probablemente por querer hacer un fork en otro fork. Por tanto, decidí llamar a system, aún si no puedo enviar stdout y stderr al archivo de log. 
+
+Más allá de eso, fue básicamente aplicar los códigos previos y darme la cabeza contra un muro, tal vez de forma un poco descarada. Usé de todo, pero igual mi error fue pensar que un Ivan mentalmente agotado hace mes y medio podía hacer esto solo, en mi defensa no había gente para hacer el trabajo que conociera un mínimo.
